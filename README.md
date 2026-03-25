@@ -5,14 +5,14 @@ Trade‑off Between Accuracy and Computation in Decision Tree and Random Forest
 
 ## Description
 Breast cancer classification project using the Breast Cancer Wisconsin (Diagnostic) dataset.  
-The repository compares a single `DecisionTreeClassifier` and a `RandomForestClassifier`, focusing on the trade‑off between predictive accuracy and computational cost (training time, prediction time, and model size). Experiments are implemented in Python with scikit‑learn and include evaluation via accuracy, confusion matrices, and visualisations of model performance. [file:12][file:13]
+The repository compares a single `DecisionTreeClassifier` and a `RandomForestClassifier`, focusing on the trade‑off between predictive accuracy and computational cost (training time, prediction time, and model size). Experiments are implemented in Python with scikit‑learn and include evaluation via accuracy, confusion matrices, and visualisations of model performance. 
 
 ## What’s inside
 - Uses the Breast Cancer Wisconsin (Diagnostic) dataset from scikit‑learn.  
 - Implements two models: `DecisionTreeClassifier` and `RandomForestClassifier` in Python (scikit‑learn).  
 - Measures model accuracy and class‑wise precision/recall/F1, plus confusion matrices.  
 - Records training time, prediction time, and model size (bytes) for each model to study the accuracy–computation trade‑off.  
-- Provides plots: confusion matrices and a bar chart comparing accuracy and error for Decision Tree vs Random Forest. [file:13]
+- Provides plots: confusion matrices and a bar chart comparing accuracy and error for Decision Tree vs Random Forest.
 
 ## Installation / requirements
 - Python 3.10+  
@@ -48,13 +48,13 @@ Run all cells to:
 - Load the Breast Cancer dataset.  
 - Train the Decision Tree and Random Forest models.  
 - Compute metrics and timings.  
-- Generate confusion matrices and accuracy/error plots. [file:13]
+- Generate confusion matrices and accuracy/error plots.
 
-> Note: Because the train/test split uses a fixed random state, results are reproducible across runs. [file:13]
+> Note: Because the train/test split uses a fixed random state, results are reproducible across runs.
 
 ## License
-This project is licensed under the MIT License. [page:18]
+This project is licensed under the MIT License.
 
 ## Author / acknowledgements
 Author: Aravind Nayini – MSc Data Science student, University of Hertfordshire.  
-This project uses the Breast Cancer Wisconsin (Diagnostic) dataset and the scikit‑learn implementations of `DecisionTreeClassifier` and `RandomForestClassifier`. Background reading and implementation details were supported by the scikit‑learn documentation and online tutorials on Decision Trees and Random Forests. [file:12]
+This project uses the Breast Cancer Wisconsin (Diagnostic) dataset and the scikit‑learn implementations of `DecisionTreeClassifier` and `RandomForestClassifier`. Background reading and implementation details were supported by the scikit‑learn documentation and online tutorials on Decision Trees and Random Forests.
